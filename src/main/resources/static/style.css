@@ -1,0 +1,68 @@
+#name-from{
+   height:100vh;
+   background-color:red;
+   text-align:center;
+
+}
+
+
+
+body {
+background-color:red;
+}
+
+#login {
+    transition-duration: 0.4s;
+    font-size: 15px;
+    height: 40px;
+    width: 95px;
+    border-color: black;
+    border-radius: 20px;
+    padding-left:10px;
+    background-color:black;
+    color:white;
+    margin-left:10px;
+  }
+
+
+
+#name-value {
+border-radius:20px;
+}
+
+#message-value{
+border-radius:20px;
+width:1650px;
+align:center;
+text-align: center;
+border-color:grey;
+}
+
+#send-btn {
+    transition-duration: 0.4s;
+    font-size: 15px;
+    height: 40px;
+    width: 95px;
+    border-color: black;
+    border-radius: 20px;
+    padding-left:10px;
+    background-color:black;
+    color:white;
+    margin-left:10px;
+  }
+
+
+
+ #logout {
+     transition-duration: 0.4s;
+     font-size: 15px;
+     height: 40px;
+     width: 95px;
+     border-color: black;
+     border-radius: 20px;
+     padding-left:10px;
+     background-color: black;
+          color: white;
+   }
+
+

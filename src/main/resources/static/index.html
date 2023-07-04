@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Room</title>
+
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel = "stylesheet" href="/style.css">
+
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/script.js"></script>
+
+</head>
+<body class="bg-dark">
+
+
+    <div id="name-from" class="bg-secondary d-flex align-items-center">
+
+        <div class="container-fluid">
+            <h2 class="mb-5">Welcome to real time chatroom application</h2>
+            <div class="row">
+
+                <div class="col-md-4 offset-md-4">
+
+
+
+                    <div class="input-group">
+
+                        <input type="text"
+                               placeholder="Enter your name"
+                               id="name-value"
+                               class="form-control"
+                               autofocus
+                               name="loginInputField">
+
+                        <div class="input-group-append">
+
+                            <button id="login">Enter</button>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="login-error" class="mt-2" style="color:white;"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="chat-room" class="d-none">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md6.offset-md-3">
+
+                    <div class="card mt-3">
+
+                        <div class="card-header">
+
+                            <h3 id="name-title"></h3>
+
+                        </div>
+
+                        <div class="card-body">
+
+
+
+
+                            <div class="table-responsive">
+
+                                <table id="message-container-table">
+
+                                    <div class="input-group">
+
+                                        <input type="text"
+                                               placeholder="Enter your message"
+                                               id="message-value"
+                                               class=""
+                                               autofocus
+                                        name="messageInputField">
+
+                                        <div class="input-group-append">
+
+                                            <button id="send-btn">Send</button>
+                                            <button id="logout">Logout</button>
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div id="login-error-message" class="text-danger mt-2" style=""></div>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
